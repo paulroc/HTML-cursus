@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulier</title>
+</head>
+<body>
+<form action="formtest.php" method="post">
+    <h1>Voorbeeldformulier</h1>
+    <label for="voornaam">Voornaam</label>
+    <input type="textinputs" name="voornaam" id="voornaam">
+    <label for="lekereten">Lekker eten</label>
+    <div class="eten">
+        <input type="checkbox">
+        <label for="Sperzibonen"></label>
+    </div>
+    <label for="tussenvoegsel">Tussenvoegsel</label>
+    <input class="textinputs" type="text" name="tussenvoegsel" id="tussenvoegsel">
+    <div class="eten">
+        <input type="checkbox">
+        <label>Aardappelen</label>
+    </div>
+    <label for="achternaam">Achternaam</label>
+    <input class="textinputs" type="text" name="achternaam" id="achternaam">
+    <div class="eten">
+        <input type="checkbox">
+        <label>Hamburger</label>
+    </div>
+    <label>Geslacht</label>
+    <div class="geslacht">
+        <input type="radio" name="geslacht" value="m">
+        <label>Man</label>
+        <input type="radio" name="geslacht" value="v">
+        <label>Vrouw</label>
+    </div>
+    <label for="kleurogen"> Kleur ogen</label>
+    <select name="kleurogen" >
+        <div class="kleurogen"></div>
+        <option>rood</option>
+        <option>blauw</option>
+        <option>groen</option>
+        <option>bruin</option>
+    </select>
+    <label for="geboortedatum">Geboortedatum</label>
+    <input class="textinputs" type="text" name="geboortedatum" id="geboortedatum">
+    <label for="omschrijving">Omschrijving</label>
+    <input type="textarea" name="omschrijving" id="omschrijving">
+
+    <div class="knop">
+    <input type="button" name="Annuleer">
+    <input type="submit" name="ok">
+    </div>
+</form>
+</body>
+</html>
